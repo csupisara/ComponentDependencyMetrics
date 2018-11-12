@@ -3,10 +3,7 @@ import java.io.FileReader;
 
 public class FileRead {
 
-    private int ca;
-    private int ce;
-    private int nc;
-    private int na;
+    private int ca, ce, na, nc;
 
     public FileRead() {
         this.ca = 0;
@@ -15,8 +12,8 @@ public class FileRead {
         this.na = 0;
     }
 
-    public void readInFile(String direc, String name) {
-        String jdkReleaseFile = direc + "/" + name;
+    public void readInFile(String location, String name) {
+        String jdkReleaseFile = location + "/" + name;
         readTextFile(jdkReleaseFile);
     }
 
@@ -25,18 +22,10 @@ public class FileRead {
         try {
             BufferedReader buffReader = new BufferedReader(new FileReader(fileToRead));
             while ((eachLine = buffReader.readLine()) != null) {
-                if (eachLine.contains(" extends ") || eachLine.contains(" implements ")) {
-                    ca++;
-                }
-                if (eachLine.contains("import ")) {
-                    ce++;
-                }
-                if (eachLine.contains(" class ")) {
-                    nc++;
-                }
-                if (eachLine.contains(" abstract ")) {
-                    na++;
-                }
+                if (eachLine.contains(" extends ") || eachLine.contains(" implements ")) ca++;
+                if (eachLine.contains("import ")) ce++;
+                if (eachLine.contains(" class ")) nc++;
+                if (eachLine.contains(" abstract ")) na++;
             }
             buffReader.close();
         } catch (Exception ex) {
