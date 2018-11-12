@@ -16,7 +16,8 @@ public class PackageInfo {
     int nc; //the number of classes in the component.
 
     public double getAbstractness(){
-        return na/nc;
+        if(na == 0 || nc == 0) return 0;
+        else return na/nc;
     }
 
     public static void main(String[] args){
@@ -27,14 +28,9 @@ public class PackageInfo {
 
         //Enhance loop through all files in the directory or folder
         for(String myFile : jcdFiles) {
-            System.out.println(myFile);
+            System.out.println("Found: " + myFile);
             jdkReleaseFile = jcdFile + "/" + myFile;
-            System.out.println(jdkReleaseFile);
         }
-
-
-
-
 
         //Reference a file to read
 //        String jdkReleaseFile = "/Users/supisara/Documents/IntelliJWorkSpace/Conway/src/Cell.java";
@@ -48,10 +44,12 @@ public class PackageInfo {
             p.na++;
         }
         if(readTextFile(jdkReleaseFile) == 1) p.na++;
-        System.out.print(p.na + "    " + p.nc);
+        System.out.println("na: " + p.na + "    nc: " + p.nc);
+
+        System.out.println("Abstractness: " + p.getAbstractness());
     }
 
-    //MEthod to read a text file
+    //Method to read a text file: normal class return 1, abstract class return 2
     public static int readTextFile(String fileToRead) {
         String eachLine = "";
         int classCount = 0;
