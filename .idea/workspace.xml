@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26ff69f0-1d9d-4c00-be4d-1b5b836d4463" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FileRead.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ComponentDependencyMetrics/PackageInfo.class" afterPath="$PROJECT_DIR$/out/production/ComponentDependencyMetrics/PackageInfo.class" />
-      <change beforePath="$PROJECT_DIR$/src/PackageInfo.java" afterPath="$PROJECT_DIR$/src/PackageInfo.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/ComponentDependencyMetrics/Main.class" afterPath="$PROJECT_DIR$/out/production/ComponentDependencyMetrics/Main.class" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/PackageInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#543#544#0" expanded="true" />
                 <element signature="e#616#617#0" expanded="true" />
@@ -51,14 +49,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+            <state relative-caret-position="162">
+              <caret line="9" column="158" lean-forward="false" selection-start-line="9" selection-start-column="158" selection-end-line="9" selection-end-column="158" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawGraph.R" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph/DrawGraph.R">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,7 +126,9 @@
         <option value="$PROJECT_DIR$/src/FileReader.java" />
         <option value="$PROJECT_DIR$/src/FileRead.java" />
         <option value="$PROJECT_DIR$/src/PackageInfo.java" />
+        <option value="$PROJECT_DIR$/src/graph/DrawGraph.R" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/graph/DrawGraph.R" />
       </list>
     </option>
   </component>
@@ -155,6 +165,11 @@
             <path>
               <item name="ComponentDependencyMetrics" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComponentDependencyMetrics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComponentDependencyMetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComponentDependencyMetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComponentDependencyMetrics" type="b2602c69:ProjectViewProjectNode" />
@@ -322,12 +337,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540880634162</updated>
       <workItem from="1540880638002" duration="5321000" />
-      <workItem from="1541988913273" duration="4626000" />
+      <workItem from="1541988913273" duration="8253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9947000" />
+    <option name="totallyTimeSpent" value="13574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -435,7 +450,7 @@
     <entry file="file://$PROJECT_DIR$/src/PackageInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#543#544#0" expanded="true" />
             <element signature="e#616#617#0" expanded="true" />
@@ -461,13 +476,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/DrawGraph.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+        <state relative-caret-position="162">
+          <caret line="9" column="158" lean-forward="false" selection-start-line="9" selection-start-column="158" selection-end-line="9" selection-end-column="158" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/DrawGraph.R">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
